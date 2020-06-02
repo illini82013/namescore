@@ -1,0 +1,8 @@
+Names will be capitalized and have double quotes around them.
+Files used for calculating the name score will be in the same format as the sample file provided. 
+While algorithms for calculating a name score will vary, every algorithm will calculate the score on a per line basis.
+When switching to both first and last names, the names will be provided in either "FIRSTNAME LASTNAME" or "LASTNAME FIRSTNAME" format.
+Any non-alphanumeric characters in a name will not affect the name score(i.e. O'DAY equals ODAY).
+Name scores will fit into Long.MAX_VALUE and name postions will fit into Integer.MAX_VALUE.
+The output of the command line utility should be printed on the console
+
